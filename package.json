@@ -1,10 +1,19 @@
 {
-  
+  
   "scripts": {
-    "minificiraj": "minify ./src/index.js --out-file index.min.js  --mangle=keepClassName",
-    "start": "node your-script.js"
+  
+    
+  "minificiraj": "minify ./src/index.js --out-file index.min.js  --mangle=keepClassName",
+  
+    
+  "start": "node your-script.js"
+  
   },
+  
   "devDependencies": {
-    "babel-minify": "^0.5.1"
+  
+    
+  "babel-minify": "^0.5.1"
+  
   }
 }
